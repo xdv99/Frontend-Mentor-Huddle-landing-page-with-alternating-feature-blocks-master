@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+/* Pink: hsl(322, 100%, 66%)
+Neutral
+Very Pale Cyan: hsl(193, 100%, 96%)
+Very Dark Cyan: hsl(192, 100%, 9%)
+Grayish Blue: hsl(208, 11%, 55%) */
+
+html {
+    font-family: "Open Sans";
+    font-size: 18px;
+}
+
+#hero {
+    background: url("./images/bg-hero-mobile.svg");
+    background-color: hsl(193, 100%, 96%);
+    background-size: cover;
+    background-origin: border-box;
+}
+
+h1, h2, h3, a {
+    font-family: "Poppins";
+}
+
+
+/* #lower-hero a, footer section a {
+    background-color: hsl(322, 100%, 66%);
+} */
+
+
+
+#cards p {
+    color: hsl(208, 11%, 55%);
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+}
+
+footer p, footer a {
+    color: hsl(208, 11%, 55%);
+    font-weight: normal;
+}
+
+
+@media screen and (min-width: 770px) {
+    #hero {
+        background-image: url("./images/bg-hero-desktop.svg");
+    }
+}
