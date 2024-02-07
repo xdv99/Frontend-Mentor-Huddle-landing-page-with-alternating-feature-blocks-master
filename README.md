@@ -14,6 +14,8 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 
 This as the NFT preview card design challenge from [Frontend Mentor](https://www.frontendmentor.io).
 
+[**Live Preview**](https://xdv99.github.io/Frontend-Mentor-Huddle-landing-page-with-alternating-feature-blocks-master/)
+
 ### Screenshot
 
 | ![Image 1](./screenshots/desktop.jpeg) | ![Image 2](./screenshots/mobile.jpeg) |
